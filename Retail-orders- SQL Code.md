@@ -9,7 +9,7 @@ ORDER BY sales DESC
 LIMIT 10;
 ~~~
 ![image](https://github.com/user-attachments/assets/fa9aafa7-e94c-4288-8baa-e1cbf225e88b)
-
+--
 ### Find top 5 highest selling products in each region
 ~~~
 WITH cte AS (
@@ -26,7 +26,7 @@ WHERE rn <= 5;
 
 ![image](https://github.com/user-attachments/assets/88f2a6fa-d109-4e94-81fa-a6c337cfa85e)
 
-
+--
 ### Find month over month growth comparison for 2022 and 2023 eg: Jan'22 vs Jan'23
 ~~~
 WITH cte AS (
@@ -44,7 +44,7 @@ ORDER BY month;
 
 ![image](https://github.com/user-attachments/assets/4e5deda6-1d2a-47ff-963c-ecb7579ff250)
 
-
+--
 ### For each category which month as highest sales
 ~~~
 WITH cte AS (
@@ -64,7 +64,7 @@ WHERE rn = 1;
 
 ![image](https://github.com/user-attachments/assets/8c891294-54fe-466b-9944-81ea3ffc3023)
 
-
+--
 ### Which sub category had highest growth by profit in 2023 as compared to 2022
 ~~~
 WITH profit_by_year AS (
