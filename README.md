@@ -39,7 +39,6 @@ This project demonstrates how to:
 - **Sub-category with highest profit growth (2023 vs 2022)**
 
 
-
 ---
 
 👤 *Author: [Gautam Kumar](https://www.linkedin.com/in/gautam-kumar-a83bb3223/)*  
