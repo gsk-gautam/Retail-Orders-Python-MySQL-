@@ -38,7 +38,7 @@ This project demonstrates how to:
 - **Top-selling month per category**  
 - **Sub-category with highest profit growth (2023 vs 2022)**
 
-> Built and tested using MySQL 5.7 and Jupyter Notebook.
+
 
 ---
 
